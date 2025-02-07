@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    margin: 100px;
+    border: 2px;
+    padding: 20px;
+    background-color: black;
+}
+h1 {
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+label {
+    color: white;
+    cursor: default;
+    margin-right: 10px;
+}
+
+input#birthday {
+    padding: 5px;
+    width: 45%;
+}
+
+button#btn {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    text-transform: uppercase;
+}
+button#btn:hover {
+    background-color: #5c5a5a;
+    color: white;
+}
+p#result {
+    color: white;
+}
